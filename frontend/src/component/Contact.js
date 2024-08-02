@@ -24,7 +24,7 @@ const Contact = () => {
         setIsSubmitting(true);
 
         try {
-            const response = await axios.post('http://localhost:5000/api/contact', formData);
+            const response = await axios.post('https://sohamlate-server.vercel.app/api/contact', formData);
             setResponseMessage(response.data.message);
             console.log(response);
         } catch (error) {
