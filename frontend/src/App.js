@@ -5,11 +5,11 @@ import Home from './pages/Home';
 export default function App() {
   return (
     <div className='h-max bg-sky-950 text-white'>
-
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-        </Routes>
+          under maintenance
+        // <Navbar />
+        // <Routes>
+        //   <Route path="/" element={<Home />} />
+        // </Routes>
     </div>
   );
 }
